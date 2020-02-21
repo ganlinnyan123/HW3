@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Microsoft JhengHei;
+    box-sizing: border-box;
+    
+}
+#black{
+    width: 1263.5px;
+    height: 1100px;
+    background-color: #303030;
+}
+#wrapper{
+    position: absolute;
+    width: 900px;
+    height: 1033px;    
+    border-style:solid;
+    border-width:1.5px;
+    border-color:#404040 ;
+    left: 180px
+    
+}
+#h1{
+    height: 80px;
+    font-size: 30px;
+    color: white;
+    background-color: #242431;
+    border-bottom-style:dashed;
+    border-color: 	#404040;
+    border-width:1px ;
+}
+#h1 p{
+    padding: 20px 0px 0px 20px;
+}
+#h1 hr{
+    
+    padding: 0px 0px 0px 0px;
+}
+#h2{
+    color: white;
+    background-color: #200000;
+    padding: 30px;
+}
+#select{
+    background-color: rgb(235, 232, 229);
+    width: 800px;
+    height: 40px;
+    margin: 5px 0px 0px 0px;
+}
+#h2-1{
+    margin: 0px 0px 40px 0px;
+}
+#h2-2{
+    margin: 0px 0px 40px 0px;
+}
+#h2-3{
+    margin: 0px 0px 40px 0px;
+}
+#text{
+    background-color: rgb(235, 232, 229);
+    width: 800px;
+    height: 200px;
+}
+#h2-4{
+    padding: 15px 0px 0px 10px;
+    width: 780px;
+    height: 50px;
+    margin: 20px 10px;
+    background-color: #282828;
+    border-radius: 5px;
+}
+#h2-5{
+    width: 780px;
+    height: 70px;
+    font-size: 13px;
+    color: 	rgb(170, 60, 60);
+    margin: 20px 0px 40px 0px;
+    border-bottom-style:solid;
+    border-color: 	#585858;
+    border-width:1px ;
+}
+#h2-6{
+    font-size: 14px;
+    text-align: center;
+}
+#h2-6 a{
+    color: #E00000;
+    text-decoration:none;
+}
+#h2-6 a:hover{
+    color: white;
+    text-decoration:underline;
+}
+#submit{
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    color:#E00000 ;
+    font-size: 20px;
+    border-color: #E00000;
+    border-style: solid;
+    margin: 20px 0px 18px 0px;
+}
+footer{
+    background-color: black;
+    color: #B0B0B0;
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+    position: absolute;
+    top:1070px;
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+}
