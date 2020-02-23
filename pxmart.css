@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+    color: #484848;
+}
+#wrapper{
+      width: 630px;
+      height: 570px;
+      position: absolute;
+      left: 460px;
+}
+#text p{
+      margin: 5px 5px;
+      line-height: 26px;
+}
+select{
+      width: 330px;
+      height: 40px;
+      background: transparent;
+      border-radius: 4px;
+      border-color: 	#D8D8D8;
+}
+#select{
+      margin: 33px 0px 0px 5px;
+}
+#f1 input{
+      width: 220px;
+      height: 40px;
+      margin: 20px 0px 0px 5px;
+}
+#f2 input:nth-child(1){
+    width: 220px;
+    height: 40px;
+    margin: 20px 0px 0px 5px;
+}
+#f2 input:nth-child(2){
+    width: 365px;
+    height: 40px;
+    margin: 20px 0px 0px 20px;
+}
+#f3 textarea{
+      font-size: 16px;
+      width: 610px;
+      height: 200px;
+      margin: 20px 0px 0px 5px;
+      border-radius: 4px;
+      border: 1px #D8D8D8 solid;
+      background: transparent;
+      box-shadow:inset 0px 3px 3px rgba(10%,20%,40%,0.3);
+}
+#button{
+      margin: 20px 0px 0px 380px;
+}
+#button input{
+    background-color: #000099;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin: 0px 0px 0px 15px;
+    border-radius: 8px;
+    border: none;
+}
+#button input:hover{
+    cursor: pointer;
+    background: transparent;
+    color: black;
+}
+input{
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px #D8D8D8 solid;
+      background: transparent;
+      box-shadow:inset 0px 3px 3px rgba(10%,20%,40%,0.3);
+}
+::-webkit-input-placeholder {
+       color: #484848;
+}
+#image{
+    z-index:0;
+    position: absolute;
+    left:75px;
+    top: 45px;
+}
+#image img{
+    width:50% ;
+    height: 50%;
+    background: transparent;
+}
